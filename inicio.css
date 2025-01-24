@@ -1,0 +1,917 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Mais{
+   position: absolute;
+   top: 30px;
+   left: 700px;
+   color: white;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    height: 340vh;
+    background-color: rgb(237, 234, 234);
+    max-width: 100%; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    overflow-x: hidden;
+}
+
+.menu{
+    background-color: rgb(67, 3, 67) ;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.MaisEudora{
+   color: white;
+   left: 1050px;
+   position: absolute;
+   top: 30px;
+}
+.Nomeempresa{
+    position: absolute;
+    top: 30px;
+    color:rgb(255, 255, 0) ;
+    opacity: 0.5;
+    left: 130px;
+}
+
+.conteiner{
+    width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+.logo{
+    top: 2px;
+    position: absolute;
+    left: 40px;
+   
+}
+
+.Contatos{
+    position: absolute;
+    top: 40px;
+    right: 250px;
+    }
+
+.svg{
+top: 20px;
+right: 90px;
+position: absolute;
+cursor: pointer;
+}
+
+.produtos { 
+    position: absolute;
+    display: flex;
+    left: 30px;
+    top: 180px;
+    gap: 20px; 
+} 
+
+ #boticario{
+    color: black;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+ }
+
+ .card1{cursor: pointer;
+    background-image: url('Img/perfume1.jpeg');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white ;
+    text-align: center;
+    
+ }
+ .titulo1{
+    position: absolute;
+    bottom: 25px;
+    font-size: 14px;
+    width: 13%;
+    margin-left: 10px;
+ }
+ 
+
+
+ .card2{
+    cursor: pointer;
+    background-image: url('Img/perfume2.jpeg');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white  ;
+    text-align: center;
+    background-position: 0 20px;
+    
+ }
+
+ .titulo2{
+    position: absolute;
+    bottom: 25px;
+    font-size: 16px;
+    width: 14%;
+ }
+
+
+ .card3{
+    cursor: pointer;
+    background-image: url('Img/malbec.jpg');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white  ;
+    text-align: center;
+    background-position: 0 20px;
+ }
+
+ .titulo3{
+    position: absolute;
+    bottom: 25px;
+    font-size: 16px;
+    width: 14%;
+ }
+
+
+
+ .card4{
+    cursor: pointer;
+    background-image: url('Img/floratta.webp');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white  ;
+    text-align: center;
+    background-position: 0 20px;
+ }
+
+ .titulo4{
+    position: absolute;
+    bottom: 5px;
+    font-size: 16px;
+    width: 14%;
+ }
+
+
+
+ .card5{
+    cursor: pointer;
+    background-image: url('Img/Insensatez.webp');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white  ;
+    text-align: center;
+    background-position: 0 10px;
+ }
+
+ .titulo5{
+    position: absolute;
+    bottom: 15px;
+    font-size: 16px;
+    width: 14%;
+ }
+
+
+
+
+ .card6{
+    cursor: pointer;
+    background-image: url('Img/Boticollection.jpg');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white  ;
+    text-align: center;
+    
+ }
+
+ .titulo6{
+    position: absolute;
+    bottom: 25px;
+    font-size: 16px;
+    width: 14%;
+ }
+
+
+.produtos0{ 
+   position: absolute;
+   display: flex;
+   left: 30px;
+   top: 615px;
+   gap: 20px; 
+} 
+
+ #boticario0{
+    color: black;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+ }
+
+ .card0{cursor: pointer;
+    background-image: url('Img/PerfumeEudora0.webp');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white ;
+    text-align: center;
+    background-position: 0 20px;
+ }
+ .titulo0{
+    position: absolute;
+    bottom: 25px;
+    font-size: 14px;
+    width: 13%;
+    margin-left: 10px;
+ }
+ 
+
+
+ .card00{
+    cursor: pointer;
+    background-image: url('Img/PerfumeEudora1.webp');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white  ;
+    text-align: center;
+    background-position: 0 20px;
+    
+ }
+
+ .titulo00{
+    position: absolute;
+    bottom: 25px;
+    font-size: 16px;
+    width: 14%;
+ }
+
+
+ .card000{
+    cursor: pointer;
+    background-image: url('Img/PerfumeEudora2.webp');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white  ;
+    text-align: center;
+    background-position: 0 20px;
+ }
+
+ .titulo000{
+    position: absolute;
+    bottom: 25px;
+    font-size: 16px;
+    width: 14%;
+ }
+
+
+
+ .card0000{
+    cursor: pointer;
+    background-image: url('Img/08580eb3-efe9-418d-992e-e04a7e048d63-e50752-club-6-exclusive-des-col-95ml-frontal.webp');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white  ;
+    text-align: center;
+    background-position: 0 20px;
+ }
+
+ .titulo0000{
+    position: absolute;
+    bottom: 5px;
+    font-size: 16px;
+    width: 14%;
+ }
+
+
+
+ .card00000{
+    cursor: pointer;
+    background-image: url('Img/PerfumeEudora3.webp');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white  ;
+    text-align: center;
+    background-position: 0 10px;
+ }
+
+ .titulo00000{
+    position: absolute;
+    bottom: 15px;
+    font-size: 16px;
+    width: 14%;
+ }
+
+
+
+
+ .card000000{
+    cursor: pointer;
+    background-image: url('Img/6e7584f2-7fbb-4ff1-b5f5-2ed4ff406d6a-ed-51432-bad-intention-colonia.webp');
+    height: 300px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white  ;
+    text-align: center;
+    
+ }
+
+ .titulo000000{
+    position: absolute;
+    bottom: 25px;
+    font-size: 16px;
+    width: 14%;
+ }
+
+
+.maquiagem{
+    font-size: 10px;
+    top: -20px;
+    position: absolute;
+    z-index: 2;
+    width: 120%;
+    left: 10px;
+}
+.maquiagemEUD{
+   font-size: 10px;
+   top: 210px;
+   position: absolute;
+   z-index: 2;
+   width: 120%;
+   left: 10px;
+}
+
+.Eudora{
+    font-size: 10px;
+    top: -250px;
+    position: absolute;
+    z-index: 2;
+    width: 120%;
+    left: 10px;
+}
+.shampoo{
+    font-size: 10px;
+    top: 450px;
+    position: absolute;
+    z-index: 2;
+    width: 120%;
+    left: 10px;
+}
+.perfumes{
+    font-size: 10px;
+    top: -470px;
+    position: absolute;
+    z-index: 2;
+    width: 120%;
+    left: 10px;
+}
+
+
+
+
+
+.mais {
+   font-size: 20px;
+   color: white;
+   text-decoration: none; 
+   transition: color 0.3s ease-in-out; 
+   transition-delay: 0.2s;
+     } 
+.mais:hover {
+   color: blue;
+   transition: 1;
+}
+
+
+
+ a {
+    color: black;
+    text-decoration: none; 
+    transition: color 0.3s ease-in-out; 
+    transition-delay: 0.2s;
+   } 
+a:hover {
+    color: blue;
+    transition: 1;
+   }
+
+   .produtos2 { 
+      position: absolute;
+      display: flex;
+      left: 30px;
+      top: 1980px;
+      gap: 20px; 
+  } 
+  
+ #EudoraSho{
+   color: black;
+   position: absolute;
+   z-index: 1;
+   top: -25px;
+  width: 200%;
+}
+.card01{
+   position: absolute;
+   cursor: pointer;
+   background-image: url('Img/shampoo1.jpg');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white ;
+   text-align: center;
+   top: 40px;
+   left: -5px;
+}
+.titulo001{
+   position: absolute;
+   bottom: 15px;
+   font-size: 14px;
+   width: 90%;
+   margin-left: 0px;
+}
+
+
+.card02{
+   cursor: pointer;
+   background-image: url('Img/condicionador1.jpg');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 40px;
+   left:240px;
+   position: absolute;
+}
+
+.titulo002{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 100%;
+
+}
+
+
+.card03{
+   cursor: pointer;
+   background-image: url('Img/shampoo2.png');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white ;
+   text-align: center;
+   top: 40px;
+   left: 480px;
+   position: absolute;
+   background-position: 0 20px;
+}
+
+.titulo003{
+   position: absolute;
+   bottom: 25px;
+   font-size: 16px;
+   width: 100%;
+
+}
+
+
+
+.card04{
+   cursor: pointer;
+   background-image: url('Img/condicionador2.png');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white ;
+   text-align: center;
+   top: 40px;
+   left: 720px;
+   position: absolute;
+   background-position: 0 20px;
+}
+
+.titulo004{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 100%;
+   
+}
+.card05{
+   cursor: pointer;
+   background-image: url('Img/condicionador3.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 40px;
+   left: 960px;
+   position: absolute;
+   background-position: 0 20px;
+}
+
+.titulo005{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 90%;
+  left: 7px;
+}
+
+.card06{
+   cursor: pointer;
+   background-image: url('Img/shampoo3.jpeg');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 40px;
+   left: 1205px;
+   position: absolute;
+   background-position: 0 20px;
+}
+
+.titulo006{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 100%;
+
+}
+.produtos3 { 
+   position: absolute;
+   display: flex;
+   left: 30px;
+   top: 980px;
+   gap: 20px; 
+} 
+
+#boticario3{
+   color: black;
+   position: absolute;
+   z-index: 1;
+   top: 30px;
+   width: 1000%;
+}
+
+.Maqui01{
+  
+   position: absolute;
+   cursor: pointer;
+   background-image: url('Img/maquiagemBot1.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 90px;
+   left: -5px;
+   background-position: 0 10px;
+}
+.titulo01{
+   position: absolute;
+   bottom: 15px;
+   font-size: 14px;
+   width: 100%;
+   margin-left: 0px;
+}
+.Maqui02{
+cursor: pointer;
+background-image: url('Img/maquiagemBot2.webp');
+height: 300px;
+width: 200px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-color:white  ;
+text-align: center;
+top: 90px;
+left:240px;
+position: absolute;
+background-position: 0 10px;
+}
+.titulo02{
+   position: absolute;
+   bottom: 25px;
+   font-size: 16px;
+   width: 100%;
+}
+.Maqui03{
+  
+   cursor: pointer;
+   background-image: url('Img/maquiagemBot3.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 90px;
+   left: 480px;
+   position: absolute;
+   background-position: 0 10px;
+}
+.titulo03{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 100%;
+}
+.Maqui04{
+   cursor: pointer;
+   background-image: url('Img/maquiagemBot4.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 90px;
+   left: 720px;
+   position: absolute;
+   background-position: 0 10px;
+}
+.titulo04{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 100%;
+}
+.Maqui05{
+   cursor: pointer;
+   background-image: url('Img/maquiagemBot5.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 90px;
+   left: 960px;
+   position: absolute;
+   background-position: 0 10px;
+}
+.titulo05{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 90%;
+  left: 7px;
+}
+.Maqui06{
+   cursor: pointer;
+   background-image: url('Img/maquiagemBot6.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 90px;
+   left: 1205px;
+   position: absolute;
+   background-position: 0 10px;
+}
+.titulo06{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 100%;
+}
+
+.produtos4{ 
+   position: absolute;
+   display: flex;
+   left: 30px;
+   top: 1440px;
+   gap: 20px; 
+} 
+
+#boticario4{
+   color: black;
+   position: absolute;
+   z-index: 1;
+   width: 200%;
+   top: 30px;
+}
+
+.Maquieud{
+  
+   position: absolute;
+   cursor: pointer;
+   background-image: url('Img/maquiagem1.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 90px;
+   left: -5px;
+   background-position: 0 10px;
+}
+.tituloeud01{
+   position: absolute;
+   bottom: 15px;
+   font-size: 14px;
+   width: 100%;
+   margin-left: 0px;
+}
+.Maquieud2{
+cursor: pointer;
+background-image: url('Img/maquiagem2.webp');
+height: 300px;
+width: 200px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-color:white  ;
+text-align: center;
+top: 90px;
+left:240px;
+position: absolute;
+background-position: 0 10px;
+}
+.tituloeud02{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 100%;
+}
+.Maquieud3{
+  
+   cursor: pointer;
+   background-image: url('Img/maquiagem3.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 90px;
+   left: 480px;
+   position: absolute;
+   background-position: 0 10px;
+}
+.tituloeud03{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 100%;
+}
+.Maquieud4{
+   cursor: pointer;
+   background-image: url('Img/maquiagem4.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 90px;
+   left: 720px;
+   position: absolute;
+   background-position: 0 20px;
+}
+.tituloeud04{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 80%;
+   left: 20px;
+}
+.Maquieud5{
+   cursor: pointer;
+   background-image: url('Img/maquiagem5.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 90px;
+   left: 960px;
+   position: absolute;
+   background-position: 0 10px;
+}
+.tituloeud05{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 90%;
+  left: 7px;
+}
+.Maquieud6{
+   cursor: pointer;
+   background-image: url('Img/maquiagem6.webp');
+   height: 300px;
+   width: 200px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-color:white  ;
+   text-align: center;
+   top: 90px;
+   left: 1205px;
+   position: absolute;
+   background-position: 0 10px;
+}
+.tituloeud06{
+   position: absolute;
+   bottom: 15px;
+   font-size: 16px;
+   width: 100%;
+}
+.logo-instagram {
+   width: 30px;
+   height: auto;
+   margin-right: 10px;
+   vertical-align: middle;
+}
+
+ul li a {
+   font-size: 18px;
+   color: black;
+   font-family: Arial, sans-serif;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+
+.logo-facebook {
+   width: 40px;
+   height: auto;
+   margin-right: 10px;
+   vertical-align: middle;
+}
+
+ul li a {
+   font-size: 18px;
+   color: black;
+   font-family: Arial, sans-serif;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+
+.logo-whatsapp {
+   width: 90px;
+   height: auto;
+   margin-right: 10px;
+   vertical-align: middle;
+   z-index: 10;
+   right: 30px;
+   position: fixed;
+   bottom: 40px;
+   transform: rotate(270deg);
+}
+
+ul li a {
+   font-size: 18px;
+   color: black;
+   font-family: Arial, sans-serif;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+}

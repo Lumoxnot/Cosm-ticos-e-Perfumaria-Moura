@@ -1,0 +1,897 @@
+
+/* Media Query para 900px */
+@media (max-width: 900px) {
+    body{
+        max-width: 100%;
+        margin: 0 auto; 
+        overflow-x: hidden;
+    }
+    .MaisEudora {
+        color: white;
+        left: 450px;
+        font-size: 10px;
+        top: 70px;
+        position: absolute;
+    }
+.tudo{
+    position: absolute;
+    left: 90px;
+}
+    .Nomeempresa {
+        font-size: 14px;
+        width: 40%;
+    }
+
+    .logo {
+        left: 30px;
+        position: absolute;
+    }
+.menu{
+    height: 130px;
+}
+    .Mais {
+        left: 440px;
+        font-size: 10px;
+        top: 30px;
+        position: absolute;
+    }
+
+    #boticario {
+        top: -80px;
+        width: 100%;
+        left: 20px;
+    }
+
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+        top: 230px;
+    }
+
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        width: 200px;
+        margin-bottom: 20px;
+        height: 300px;
+        left: 20px;
+        background-position: 0 10px;
+        position: relative;
+    }
+
+    .titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6 {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .perfumes {
+        top: -655px;
+        width: 115%;
+        left: -140px;
+    }
+
+    .produtos0 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 240px;
+        top: 230px;
+    }
+
+    #boticario0 {
+        top: -80px;
+        width: 100%;
+        left: 70px;
+    }
+
+    .card0, .card00, .card000, .card0000, .card00000, .card000000 {
+        width: 200px;
+        margin-bottom: 20px;
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative;
+    }
+
+    .titulo0, .titulo00, .titulo000, .titulo0000, .titulo00000, .titulo000000 {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+        left: -5px;
+    }
+
+    .Eudora {
+        top: -655px;
+        width: 130%;
+        left: 0px;
+    }
+
+    #EudoraSho {
+        left: 30px;
+    }
+
+    .shampoo {
+        top: -330px;
+    }
+
+    .produtos2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 2580px;
+        left: -10px;
+    }
+
+    .card02 {
+        top: 40px;
+        left: 310px;
+    }
+
+    .card04 {
+        left: 310px;
+        top: 400px;
+    }
+
+    .card06 {
+        left: 310px;
+        top: 760px;
+    }
+
+    .card03 {
+        left: 60px;
+        top: -50px;
+    }
+
+    .card05 {
+        top: -140px;
+        left: 60px;
+    }
+
+    .card01, .card03, .card05 {
+        width: 200px;
+        margin-bottom: 20px;
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative;
+    }
+
+    .shampoo {
+        top: -55px;
+        width: 140%;
+        left: -140px;
+    }
+
+    h2#boticario3 {
+        display: block;
+        width: 90%;
+        height: 50px;
+        left: 30px;
+        top: -10px;
+    }
+
+    .produtos3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 3760px;
+        left: 0;
+    }
+
+    .Maqui01, .Maqui02, .Maqui03, .Maqui04, .Maqui05, .Maqui06 {
+        width: 200px;
+        margin-bottom: 20px;
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative;
+    }
+
+    .maquiagem {
+        top: 1170px;
+        width: 110%;
+        left: -130px;
+    }
+
+    #boticario4 {
+        left: 5px;
+        width: 60%;
+        top: -10px;
+    }
+
+    .produtos4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 3760px;
+        left: 300px;
+    }
+
+    .Maquieud, .Maquieud2, .Maquieud3, .Maquieud4, .Maquieud5, .Maquieud6 {
+        width: 200px;
+        margin-bottom: 20px;
+        height: 300px;
+        left: 0px;
+        background-position: 0 10px;
+        position: relative;
+    }
+
+    .maquiagemEUD {
+        top: 1170px;
+        width: 120%;
+        left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .MaisEudora {
+        color: white;
+        left: 160px;
+        font-size: 10px;
+        top: 70px;
+        position: absolute;
+    }
+    .Nomeempresa {
+        display: none;
+    }
+    div .logo {
+        left: 30px;
+        position: absolute;
+    }
+    .Mais {
+        left: 150px;
+        font-size: 10px;
+        top: 30px;
+        position: absolute;
+    }
+    #boticario{
+        top: -80px;
+        width: 100%;
+        left: 20px;
+    }
+    .produtos {
+        flex-direction: column; /* Alinha os cards em coluna */
+        align-items: center; /* Centraliza os cards horizontalmente */
+        top: 230px;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        width: 200px; /* Ajusta a largura dos cards */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+        height: 300px;
+        left: 20px;
+        background-position: 0 10px;
+        position: relative;
+    }
+    .titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6 {
+        width: 100%; /* Ajusta a largura dos textos */
+        text-align: center; /* Centraliza os textos */
+        position: absolute; /* Garante que os textos fiquem dentro dos cards */
+        bottom: 20px; /* Ajusta a posição dos textos */
+    }
+    .perfumes {
+        top: -650px;
+        width: 115%;
+        left: -140px;
+    }
+    .produtos0 {
+        display: flex;
+        flex-direction: column; /* Alinha os cards em coluna */
+        align-items: center; /* Centraliza os cards horizontalmente */
+        left: 240px;
+        top: 230px;
+    }
+    #boticario0 {
+        top: -80px;
+        width: 100%;
+        left: 70px;
+    }
+    .card0, .card00, .card000, .card0000, .card00000, .card000000 {
+        width: 200px; /* Ajusta a largura dos cards */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative; /* Ajusta a posição dos cards */
+    }
+    .titulo0, .titulo00, .titulo000, .titulo0000, .titulo00000, .titulo000000 {
+        width: 100%; /* Ajusta a largura dos textos */
+        text-align: center; /* Centraliza os textos */
+        position: absolute; /* Garante que os textos fiquem dentro dos cards */
+        bottom: 10px; /* Ajusta a posição dos textos */
+        left: -5px;
+    }
+    .Eudora {
+        top: -650px;
+        width: 115%;
+        left: 0px;
+    }
+    #EudoraSho {
+        left: 30px;
+    }
+   
+    .produtos2 {
+        display: flex;
+        flex-direction: column; /* Alinha os cards em coluna */
+        align-items: center; /* Centraliza os cards horizontalmente */
+        top: 2580px;
+        left: -10px;
+    }
+    .card02{
+        top: 40px;
+        left: 310px;
+    }
+    .card04{
+        left: 310px;
+        top: 390px; 
+    }
+    .card06{
+        left: 310px;
+        top: 750px; 
+    }
+    .card03{
+        left: 60px;
+        top: -55px ;
+    }
+    .card05{
+        top: -150px; 
+        left: 60px;
+    }
+    .card01,  .card03,  .card05 {
+        width: 200px; /* Ajusta a largura dos cards */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative; /* Ajusta a posição dos cards */
+    }
+    .shampoo {
+        top: -60px;
+        width: 200%;
+    }
+    div h2#boticario3 {
+        display: block;
+        width: 90%;
+        height: 50px;
+        left: 30px;
+        top: -10px;
+    }
+    .produtos3 {
+        display: flex;
+        flex-direction: column; /* Alinha os cards em coluna */
+        align-items: center; /* Centraliza os cards horizontalmente */
+        top: 3760px;
+        left: 0;
+    }
+    .Maqui01, .Maqui02, .Maqui03, .Maqui04, .Maqui05, .Maqui06 {
+        width: 200px; /* Ajusta a largura dos cards */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative; /* Ajusta a posição dos cards */
+    }
+    .maquiagem {
+        top:1160px;
+        width: 115%;
+        left: -130px;
+    }
+    #boticario4 {
+        left: 5px;
+        width: 60%;
+        top: -10px;
+    }
+    .produtos4 {
+        display: flex;
+        flex-direction: column; /* Alinha os cards em coluna */
+        align-items: center; /* Centraliza os cards horizontalmente */
+        top: 3760px;
+        left: 300px;
+    }
+    .Maquieud, .Maquieud2, .Maquieud3, .Maquieud4, .Maquieud5, .Maquieud6 {
+        width: 200px; /* Ajusta a largura dos cards */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+        height: 300px;
+        left: 0px;
+        background-position: 0 10px;
+        position: relative; /* Ajusta a posição dos cards */
+    }
+    .maquiagemEUD {
+        top: 1160px;
+        width: 115%;
+        left: 0px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    body {
+        height: 800vh;
+        max-width: 100%;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .MaisEudora {
+        color: white;
+        left: 260px;
+        font-size: 10px;
+        top: 60px;
+        position: absolute;
+    }
+    .Nomeempresa {
+        display: none;
+    }
+    div .logo {
+        left: 30px;
+        position: absolute;
+    }
+    .Mais {
+        left: 250px;
+        font-size: 10px;
+        top: 30px;
+        position: absolute;
+    }
+    #boticario {
+        position: absolute;
+        left: 20px;
+        top: -30px;
+    }
+    .menu {
+        height: 100px;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .produtos {
+        flex-direction: column; /* Alinha os cards em coluna */
+        align-items: center; /* Centraliza os cards horizontalmente */
+    }
+    div .svg {
+        position: absolute;
+        right: 50px;
+    }
+    .card4, .card5, .card6 {
+        position: relative;
+        height: 270px;
+        background-position: 0 20px;
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+    }
+    div.card2, div.card3 {
+        max-width: 200px;
+        background-position: 0 0px;
+        max-height: 270px;
+        text-align: center;
+        background-position: 0 10px;
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+    }
+    h1.titulo2, h1.titulo3 {
+        width: 100%; /* Ajusta a largura dos textos */
+        text-align: center; /* Centraliza os textos */
+        left: 5px;
+        top: 220px;
+        position: relative; /* Garante que os textos fiquem dentro dos cards */
+    }
+    .card1 {
+        top: 50px;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        width: 200px; /* Ajusta a largura dos cards */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+        height: 300px;
+        left: 20px;
+        background-position: 0 10px;
+        position: relative;
+    }
+    .titulo1, .titulo4, .titulo5, .titulo6 {
+        top: 220px;
+    }
+    .titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6 {
+        width: 100%; /* Ajusta a largura dos textos */
+        text-align: center; /* Centraliza os textos */
+        position: absolute; /* Garante que os textos fiquem dentro dos cards */
+        bottom: -320px; /* Ajusta a posição dos textos */
+    }
+    div.perfumes {
+        top: -600px;
+        width: 100%;
+        left: -120px;
+    }
+    .produtos0 {
+        display: flex;
+        flex-direction: column; /* Alinha os cards em coluna */
+        align-items: center; /* Centraliza os cards horizontalmente */
+        left: 240px;
+        top: 280px;
+    }
+    #boticario0 {
+        top: -50px;
+        width: 150%;
+        left: 10px;
+    }
+    .card00, .card000 {
+        top: -50px;
+        height: 270px;
+        position: absolute;
+    }
+    .card0000, .card00000 {
+        top: -50px;
+    }
+    .card000000 {
+        top: -50px;
+    }
+    .card0, .card00, .card000, .card0000, .card00000, .card000000 {
+        width: 200px; /* Ajusta a largura dos cards */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+        left: 60px;
+        background-position: 0 10px;
+        position: relative; /* Ajusta a posição dos cards */
+    }
+    .titulo0, .titulo00, .titulo000, .titulo0000, .titulo00000, .titulo000000 {
+        width: 100%; /* Ajusta a largura dos textos */
+        text-align: center; /* Centraliza os textos */
+        position: absolute; /* Garante que os textos fiquem dentro dos cards */
+        bottom: 10px; /* Ajusta a posição dos textos */
+        left: -5px;
+    }
+    .Eudora {
+        top:  -620px;
+        width: 120%;
+        left: 5px;
+    }
+    #EudoraSho {
+        left: 30px;
+        top: 0;
+    }
+    div.shampoo {
+        top: -330px;
+    }
+    .produtos2 {
+        display: flex;
+        flex-direction: column; /* Alinha os cards em coluna */
+        align-items: center; /* Centraliza os cards horizontalmente */
+        top: 2500px;
+        left: -10px;
+    }
+    div.card01 {
+        background-position: 0 -10px;
+    }
+    div.card02 {
+        background-position: 0 -10px;
+    }
+    div.card06 {
+        background-position: 0 20px;
+    }
+    .card02 {
+        left: 310px;
+        top: 40px;
+    }
+    .card04 {
+        left: 310px;
+        top: 390px;
+    }
+    .card06 {
+        left: 310px;
+        top: 775px;
+    }
+    .card03 {
+        top: -50px;
+        left: 60px;
+    }
+    .card05 {
+        top: -120px;
+        left: 60px;
+    }
+    .card01 {
+        width: 200px; /* Ajusta a largura dos cards */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative; /* Ajusta a posição dos cards */
+    }
+    .shampoo {
+        top: 260px;
+        width: 150%;
+        left: -120px;
+    }
+    div h2#boticario3 {
+        display: block;
+        width: 90%;
+        height: 50px;
+        left: 30px;
+        top: -10px;
+    }
+    .produtos3 {
+        display: flex;
+        flex-direction: column; /* Alinha os cards em coluna */
+        align-items: center; /* Centraliza os cards horizontalmente */
+        top: 3660px;
+        left: 0;
+    }
+    
+    .Maqui01, .Maqui02, .Maqui03, .Maqui04, .Maqui05, .Maqui06 {
+        width: 200px; /* Ajusta a largura dos cards */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative; /* Ajusta a posição dos cards */
+    }
+    .maquiagem {
+        top: 1160px;
+        width: 96%;
+        left: -120px;
+    }
+    #boticario4 {
+        left: 5px;
+        width: 60%;
+        top: -10px;
+    }
+    .produtos4 {
+        display: flex;
+        flex-direction: column; /* Alinha os cards em coluna */
+        align-items: center; /* Centraliza os cards horizontalmente */
+        top: 3660px;
+        left: 300px;
+    }
+    .Maquieud, .Maquieud2, .Maquieud3, .Maquieud4, .Maquieud5, .Maquieud6 {
+        width: 200px; /* Ajusta a largura dos cards */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+        height: 300px;
+        left: 0px;
+        background-position: 0 10px;
+        position: relative; /* Ajusta a posição dos cards */
+    }
+    .maquiagemEUD {
+        top: 1160px;
+        width: 96%;
+        left: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        height: 100vh;
+        max-width: 100%;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+.tudo{
+    left: 0;
+}
+    .logo {
+        left: 0;
+        top: 30px;
+        position: absolute;
+    }
+
+    .Mais {
+        left: 200px;
+        font-size: 10px;
+        top: 40px;
+        position: absolute;
+    }
+
+    .MaisEudora {
+        color: white;
+        left: 210px;
+        font-size: 10px;
+        top: 80px;
+        position: absolute;
+    }
+
+    div.perfumes {
+        top: -6710px;
+        position: absolute;
+        width: 200%;
+        z-index: 1;
+        left: 150px;
+    }
+
+    .menu {
+        height: 150px;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.svg {
+        position: absolute;
+        left: 450px;
+        top: 40px;
+    }
+    div.card6 {
+        top: -60px;
+    }
+    .card4, .card5, .card6 {
+        position: relative;
+        height: 270px;
+        background-position: 0 20px;
+        top: -30px;
+    }
+
+    .card2, .card3 {
+        max-width: 200px;
+        background-position: 0 0;
+        max-height: 270px;
+        text-align: center;
+        background-position: 0 10px;
+    }
+
+    h1.titulo2, h1.titulo3 {
+        width: 100%;
+        text-align: center;
+        left: 5px;
+        top: 220px;
+    }
+
+    .card1 {
+        top: 50px;
+   
+    }
+
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        width: 200px;
+        margin-bottom: 20px;
+        height: 300px;
+        left: 150px;
+        background-position: 0 10px;
+        position: relative;
+    }
+
+    .titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6 {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: -320px;
+    }
+
+   
+    .produtos0 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 2500px;
+    }
+
+    #boticario0 {
+        top: -50px;
+        width: 150%;
+        left: -90px;
+    }
+    .card00{
+        top: -30px;
+    }
+    div.card0000 ,div.card00000, div.card000000{
+        top: -80px;
+      
+    }
+    .card0, .card00, .card000, .card0000, .card00000, .card000000 {
+        width: 200px;
+        margin-bottom: 20px;
+        height: 300px;
+        left: -60px;
+        background-position: 0 10px;
+        position: relative;
+    }
+
+    .titulo0, .titulo00, .titulo000, .titulo0000, .titulo00000, .titulo000000 {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+        left: -5px;
+    }
+
+    div.Eudora {
+        top: -4420px;
+        width: 200%;
+        left: 30px;
+    }
+
+    #EudoraSho {
+        left: 20px;
+    }
+
+    .produtos2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 4800px;
+        left: 120px;
+    }
+
+    .card01, .card02, .card06 {
+        background-position: 0 -10px;
+    }
+    .card03,.card04, .card05, .card06{
+        top: 20px;
+    }
+    .card02{
+        top: 0;
+    }
+    .card01, .card02, .card03, .card04, .card05, .card06 {
+        width: 200px;
+        margin-bottom: 20px;
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative;
+    }
+
+    .shampoo {
+        top: -2320px;
+        width: 120%;
+        left: 20px;
+    }
+
+    h2#boticario3 {
+      position: absolute;
+        width: 170%;
+        height: 50px;
+        left: 30px;
+    }
+
+    .produtos3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 7200px;
+        left: 120px;
+    }
+
+    .Maqui01, .Maqui02, .Maqui03, .Maqui04, .Maqui05, .Maqui06 {
+        width: 200px;
+        margin-bottom: 20px;
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative;
+    }
+
+    .maquiagem {
+        top: -90px;
+        width: 140%;
+        position: absolute;
+        left: 10px;
+    }
+
+    #boticario4 {
+        left: 5px;
+    }
+
+    .produtos4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 9700px;
+        left: 120px;
+    }
+
+    .Maquieud, .Maquieud2, .Maquieud3, .Maquieud4, .Maquieud5, .Maquieud6 {
+        width: 200px;
+        margin-bottom: 20px;
+        height: 300px;
+        left: 60px;
+        background-position: 0 10px;
+        position: relative;
+    }
+
+    .maquiagemEUD {
+        top:    1170px;
+        width: 130%;
+        left: 10px;
+    }
+}
